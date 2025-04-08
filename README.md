@@ -3,6 +3,10 @@ ES 1
 
 Il user ha: name: string, age: number, isAdmin: boolean.
 
+
+
+
+
 es 2 
 Crea un form con ref<string>() per nome, ref<number>() per età.
 
