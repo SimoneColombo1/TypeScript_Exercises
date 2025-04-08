@@ -1,33 +1,36 @@
-# TypeScript_Exercises
+ES 1 
+ Crea un componente UserCard.vue che riceve un user come prop.
 
-This template should help get you started developing with Vue 3 in Vite.
+Il user ha: name: string, age: number, isAdmin: boolean.
 
-## Recommended IDE Setup
+es 2 
+Crea un form con ref<string>() per nome, ref<number>() per età.
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+Aggiungi la validazione del tipo.
 
-## Type Support for `.vue` Imports in TS
+es 3 
+Crea un tipo Task con title, done, id.
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
+Crea un array di Task (ref<Task[]>) e mostra l’elenco.
 
-## Customize configuration
+es 4
+Crea un componente <ListRenderer :items="[]" /> che accetta un array generico e una render function come slot.
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+es 5
+Crea un composable useCounter() che restituisce un count e increment(), reset().
 
-## Project Setup
+es 6 
+ 
+Fai una chiamata API (es. JSONPlaceholder https://jsonplaceholder.typicode.com/users)
 
-```sh
-npm install
-```
+Tipizza la risposta con un'interfaccia User.
 
-### Compile and Hot-Reload for Development
 
-```sh
-npm run dev
-```
+es 7
+Fai una chiamata API (es. JSONPlaceholder https://jsonplaceholder.typicode.com/users)
 
-### Type-Check, Compile and Minify for Production
+Tipizza la risposta con un'interfaccia User.
 
-```sh
-npm run build
-```
+es 8
+
+Crea un componente Table<T> che accetta righe generiche e uno slot per la riga.
